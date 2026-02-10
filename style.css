@@ -1,0 +1,239 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8cdda, #d1c4e9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.6;
+    animation: float 14s infinite ease-in-out;
+}
+
+.blob1 {
+    width: 320px;
+    height: 320px;
+    background: #f48fb1;
+    top: -100px;
+    left: -100px;
+}
+
+.blob2 {
+    width: 360px;
+    height: 360px;
+    background: #ce93d8;
+    bottom: -140px;
+    right: -120px;
+    animation-delay: 4s;
+}
+
+.blob3 {
+    width: 240px;
+    height: 240px;
+    background: #f8bbd0;
+    top: 55%;
+    left: 18%;
+    animation-delay: 7s;
+}
+
+
+
+.home-box {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(14px);
+    padding: 60px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    max-width: 800px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 25px 55px rgba(155, 89, 182, 0.28);
+    position: relative;
+    
+    
+}
+
+
+
+.home-box h1 {
+    color: #6a1b9a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.home-box span {
+    color: #ec407a;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #7b1fa2;
+    margin-bottom: 25px;
+}
+
+.home-box p {
+    color: #555;
+    line-height: 1.9;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+
+.buttons a {
+    text-decoration: none;
+    padding: 12px 28px;
+    margin: 0 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #ec407a, #ab47bc);
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(171, 71, 188, 0.4);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8cdda, #d1c4e9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    opacity: 0.6;
+    animation: float 12s infinite ease-in-out;
+}
+
+.blob1 {
+    width: 300px;
+    height: 300px;
+    background: #f48fb1;
+    top: -80px;
+    left: -80px;
+}
+
+.blob2 {
+    width: 350px;
+    height: 350px;
+    background: #ce93d8;
+    bottom: -120px;
+    right: -100px;
+    animation-delay: 3s;
+}
+
+.blob3 {
+    width: 220px;
+    height: 220px;
+    background: #f8bbd0;
+    top: 60%;
+    left: 15%;
+    animation-delay: 6s;
+}
+
+
+.about-box {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(14px);
+    padding: 60px;
+    max-width: 860px;
+    border-radius: 22px;
+    box-shadow: 0 25px 50px rgba(155, 89, 182, 0.25);
+    transition: all 0.35s ease;
+    position: relative;
+    margin-top: 40px;
+    padding-left: 110px; 
+    padding-right: 110px; 
+    margin-left: 10px;  
+}
+
+
+.about-box h1 {
+    text-align: center;
+    color: #6a1b9a;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.about-box span {
+    color: #ec407a;
+    font-weight: 600;
+}
+
+.about-box p {
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.about-box h2 {
+    margin-top: 32px;
+    color: #7b1fa2;
+}
+
+.about-box ul {
+    list-style: none;
+    margin-top: 18px;
+}
+
+.about-box ul li {
+    padding: 10px 0;
+    color: #555;
+    position: relative;
+    padding-left: 22px;
+}
+
+.about-box ul li::before {
+    content: "♡";
+    position: absolute;
+    left: 0;
+    color: #ec407a;
+}
+body{
+    padding: 10px 10px 500px 10px;
+}
+.img{
+    display: flex;
+}
+img{
+    height: 600px;
+    width: 500px;
+    border-radius: 22px;
+    margin-top: 40px;
+}
